@@ -1,0 +1,10 @@
+{{#each tracks}}
+    <div class="album-container">
+        <h1 id="artist">{{artistName}}</h1>
+        <h2 class="track" data-id='{{trackId}}'>{{trackName}}</h2>
+        <h3>{{albumName}}</h3>
+        <img src="{{imageURL}}">
+        <audio src="{{trackPreview}}"></audio>
+    </div>
+{{/each}}
+
