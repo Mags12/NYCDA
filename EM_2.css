@@ -1,0 +1,31 @@
+#big-button{
+    position: absolute;
+    left: 50px;
+    top: 350px;
+    height: 100px;
+    width: 1000px;
+    color: black;
+    background-color: cadetblue;
+}
+
+.keystroke{
+    margin: 0 0 0 36px;
+    padding: 14px;
+    width: 40%;
+    font-size: 16px;
+
+}
+
+#user-info #password-info {
+    margin: 0 0 0 24px;
+    padding: 12px;
+    width: 20%;
+
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid rgb(34, 95, 175);
+    border-right: 1px solid rgb(34, 95, 175);
+
+    font-size: 12px;
+}
+
